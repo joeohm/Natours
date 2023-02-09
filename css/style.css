@@ -806,7 +806,7 @@ body {
     display: table-cell; }
     @media (max-width: 56.25em) {
       .popup__left {
-        width: 50%;
+        width: 100%;
         display: flex; } }
     @media (max-width: 37.5em) {
       .popup__left {
@@ -827,6 +827,9 @@ body {
   .popup__img {
     display: block;
     width: 100%; }
+    @media (max-width: 56.25em) {
+      .popup__img {
+        width: 50%; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
